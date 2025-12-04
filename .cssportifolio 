@@ -1,0 +1,31 @@
+/* Estilo geral do menu de navegação */
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Ícone do WhatsApp */
+nav a .fa-whatsapp {
+  color: #25D366;       /* Cor oficial do WhatsApp */
+  font-size: 22px;      /* Tamanho do ícone */
+  margin-right: 6px;    /* Espaço entre ícone e texto */
+  transition: transform 0.3s ease;
+}
+
+/* Efeito hover no link do WhatsApp */
+nav a:hover .fa-whatsapp {
+  transform: scale(1.2); /* Dá um leve zoom no ícone */
+  color: #128C7E;        /* Tom mais escuro no hover */
+}
+
+/* Opcional: destaque especial só para o link do WhatsApp */
+nav a[href*="wa.me"] {
+  color: #25D366;
+  font-weight: bold;
+}
+nav a[href*="wa.me"]:hover {
+  color: #128C7E;
+}
