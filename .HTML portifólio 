@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Lucas Paulo Ferreira de Lima</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Ícones Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Cabeçalho -->
+  <header>
+    <h1>Lucas Paulo Ferreira de Lima</h1>
+    <h2>Desenvolvedor Frontend Júnior</h2>
+    <nav>
+      <!-- Link WhatsApp atualizado -->
+      <a href="https://wa.me/5581998658722" target="_blank" style="text-decoration: none; color: #25D366;">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+      <a href="https://github.com/lucaspauloferreiradelima25-code/placar-eletonico" target="_blank">
+        <i class="fas fa-code"></i> Projetos
+      </a>
+      <a href="mailto:lucaspauloferreiradelima21@gmail.com">
+        <i class="fas fa-envelope"></i> Contato
+      </a>
+    </nav>
+  </header>
+
+  <!-- Seção Sobre -->
+  <section id="sobre">
+    <h2>Sobre mim</h2>
+    <p>Sou desenvolvedor frontend júnior apaixonado por tecnologia, soluções criativas e aprendizado contínuo. 
+       Tenho experiência em HTML, CSS e JavaScript, e busco sempre evoluir minhas habilidades para criar interfaces modernas e funcionais.</p>
+    <p>Confira meu perfil no 
+      <a href="https://www.linkedin.com/in/lucas-lima-749852391" target="_blank">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>.
+    </p>
+  </section>
+
+  <!-- Seção Projetos -->
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <div class="projeto">
+      <h3>Placar Eletrônico</h3>
+      <p>Projeto de placar eletrônico desenvolvido com HTML, CSS e JavaScript.</p>
+      <a href="https://github.com/lucaspauloferreiradelima25-code/placar-eletonico" target="_blank">
+        <i class="fab fa-github"></i> Ver no GitHub
+      </a>
+    </div>
+
+    <div class="projeto">
+      <h3>Projeto Básico HTML/CSS/JS</h3>
+      <p>Exemplo de aplicação simples utilizando HTML, CSS e JavaScript.</p>
+      <a href="#" target="_blank">
+        <i class="fab fa-github"></i> Ver no GitHub
+      </a>
+    </div>
+  </section>
+</body>
+</html>
